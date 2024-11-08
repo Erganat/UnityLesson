@@ -569,7 +569,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameData: {fileID: 11400000, guid: 8ea763707aa65a841915d5c76d11f534, type: 2}
-  characterFactory: {fileID: 0}
+  characterFactory: {fileID: 417503007}
 --- !u!4 &979266679
 Transform:
   m_ObjectHideFlags: 0

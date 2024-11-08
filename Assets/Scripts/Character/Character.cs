@@ -12,7 +12,7 @@ public abstract class Character : MonoBehaviour
 
     public virtual Character CharacterTarget { get; }
 
-    public CharacterType CharacterType => CharacterType;
+    public CharacterType CharacterType => characterType;
     public CharacterData CharacterData => characterData;
     public IMovable MovableComponent { get; protected set; }
     public ILiveComponent LiveComponent { get; protected set; }

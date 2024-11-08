@@ -53,7 +53,7 @@ public class PlayerCharacter : Character
             Vector3 rotationDirection = CharacterTarget.transform.position -transform.position;
             MovableComponent.Rotation(rotationDirection);
 
-            if (Input.GetKeyDown("Jump"))
+            if (Input.GetButtonDown("Jump"))
                 DamageComponent.MakeDamage(CharacterTarget);
 
         }
